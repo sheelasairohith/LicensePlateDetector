@@ -1,0 +1,6 @@
+<form action="{% url 'home_page'%}" enctype="multipart/form-data" method="POST" role="form">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" class="btn btn-primary" name="submit">Comment</button>
+
+</form>

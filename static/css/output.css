@@ -1,0 +1,28 @@
+body{
+  color: #FFF200;
+  background-color: #000;
+}
+
+ form {
+   left: 10%;
+   top: 10%;
+   position: absolute;
+   
+  background: #000;
+  padding-top: 2rem;
+  margin: 1rem 2rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0 2rem #333;
+          box-shadow: 0 0 2rem #333;
+}
+.resize{
+  width:800px;
+  height:600px;
+}
+.container{
+  top:10%;
+  left:10%;
+  position: absolute;
+
+}
+

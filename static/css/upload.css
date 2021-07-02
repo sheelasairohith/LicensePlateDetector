@@ -1,0 +1,80 @@
+body{
+  background-color: #000;
+  background-image:url(upd4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ background-size:60% 60% ;
+}
+h1{
+  font-size: 4rem;
+  font-family: 'lemonada',sans-serif;
+  font-weight: bolder;
+  text-shadow: .1rem .1rem .3rem #333;
+  color: #FFF200;
+}
+.container{
+  top:40%;
+  left:43.5%;
+  position: absolute;
+}
+.upload-box{
+  font-size: 16px;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px black;
+  width:220px;
+  outline:none;
+}
+::-webkit-file-upload-button{
+  color:#333;
+  background:red;
+  padding: 5px;
+  border:none;
+  border-radius: 50px;
+  outline:none;
+
+}
+::-webkit-file-upload-button:hover{
+  background: #ccff66;
+}
+ .container p {
+  font-size: 1.6rem;
+  color: #ccff66;
+}
+
+.container button {
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  color: #333;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: .2rem;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  height: 2rem;
+  width: 7rem;
+  background: #ccff66;
+  margin-top: 0.1em;
+}
+
+ .container button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #FFF200;
+  height: 2rem;
+  width: 7rem;
+  -webkit-transition: .2s;
+  transition: .2s;
+  z-index: -1;
+}
+.container button:hover::before {
+  width: 100%;
+  background: #ccff66;
+}
